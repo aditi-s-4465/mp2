@@ -13,7 +13,7 @@ function Cell({ id, name, image, type, weight, onSelect }: pkmn & { onSelect: (a
   return (
     <div className="cell" onClick={() => onSelect({ id, name, image, type, weight })}>
       <div className="info">
-          <div className="cellid">#{id}</div>
+          <div className=" cellid">#{id}</div>
           <div className="cellname">{name}</div>
       </div>
     </div>
