@@ -1,0 +1,23 @@
+.cell {
+  padding: 10px 15px;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 8px;
+}
+
+.cellid {
+  font-size: 15px;
+  color: #666;
+}
+
+.cellname {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}

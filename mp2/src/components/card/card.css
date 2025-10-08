@@ -1,0 +1,33 @@
+.cardfull {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: #fff;
+  }
+  
+  .cardid {
+    font-size: 0.8rem;
+    color: #666;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .cardimage {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .cardname {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  
+  .carddetails {
+    font-size: 0.85rem;
+    color: #333;
+  }
+  

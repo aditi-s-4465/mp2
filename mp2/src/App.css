@@ -1,0 +1,63 @@
+.App {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 60px;
+}
+.cardscontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+.cellscontainer {
+  display: grid;
+  grid-template-columns: 1 fr; 
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.buttonstyling {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid;  
+  border-color: #312e81;
+  background-color: #4f46e5;   
+  color: #fff;
+}
+
+.inputstyling {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #312e81;
+  background-color: #f3f4f6;  
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.selectstyling {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid #312e81;
+
+}
+
+.controls-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;      
+  margin-bottom: 25px; 
+  flex-wrap: wrap; 
+}
+.view-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;       
+  margin-bottom: 30px; 
+}
